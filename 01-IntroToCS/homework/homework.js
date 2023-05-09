@@ -87,7 +87,7 @@ function BinarioADecimal(num) {
   return resultado;
 }
 
-BinarioADecimal(2);
+console.log(BinarioADecimal(2));
 
 function DecimalABinario(num) {
   // 91 = 1011011
