@@ -45,8 +45,8 @@ function Queue() {
 Queue.prototype.enqueue = function(value){
   this.arr.push(value);
 }
-Queue.prototype.dequeue = function(){
-  return this.arr.shift();
+Queue.prototype.dequeue = function(){ // Shift/Pop... cuando saca un elemento del array, retorna ese elemento
+  return this.arr.shift(); // Cuando quiere hacer shift de un array vacio, retorna undefined
 }
 
 Queue.prototype.size = function(){
